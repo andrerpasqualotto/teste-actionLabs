@@ -27,6 +27,6 @@ yarn start or npm run start
 ```
 
 
-## Author
+## Autor
 
 👤 André Rafael Pasqualotto
