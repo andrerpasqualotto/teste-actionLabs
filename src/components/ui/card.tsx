@@ -30,11 +30,11 @@ const Card = ({open, high, low, close, date,percentage}: Props) => (
         <span className="text-base font-semibold">{close.toString()}</span>
       </div>
       <div className="row-start-3 flex justify-between items-center">
-        <span className="text-[10px] font-medium">LOW:</span>
+        <span className="text-[11px] font-medium">LOW:</span>
         <span className="text-base font-semibold">{low.toString()}</span>
       </div>
       <div className="row-start-4 flex justify-between items-center">
-        <span className="text-[11px] font-medium">CLOSE DIFF (%)</span>
+        <span className="text-[10px] font-medium">CLOSE DIFF (%)</span>
         <span className={(percentage==0? "text-base" : (percentage>0? "text-diff-up" : "text-diff-down"))+ " font-semibold"}>{percentage.toString() + "%"}</span>
       </div>
       <div className="row-start-4 flex justify-between items-center">
