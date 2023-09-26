@@ -6,7 +6,9 @@ Teste técnico desenvolvido conforme as orientações presentes neste [Link](htt
 ## Configurações
 
 -React 18+ (Typescript)
+
 -Tailwind CSS
+
 -Shadcn (componentes)
 
 
@@ -18,7 +20,7 @@ Instale as dependências:
 yarn install or npm install
 ```
 
-Server de desenvolvimento:
+Servidor de desenvolvimento:
 
 ```sh
 yarn start or npm run start
