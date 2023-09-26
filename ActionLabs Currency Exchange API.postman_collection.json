@@ -1,0 +1,112 @@
+{
+	"info": {
+		"_postman_id": "1e3ea4c0-2ab6-4821-b583-abaaf1052575",
+		"name": "ActionLabs Currency Exchange API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Current Exchange Rate",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api-brl-exchange.actionlabs.com.br/api/1.0/open/currentExchangeRate?apiKey={{API KEY}}&from_symbol=JPY&to_symbol=EUR",
+					"protocol": "https",
+					"host": [
+						"api-brl-exchange",
+						"actionlabs",
+						"com",
+						"br"
+					],
+					"path": [
+						"api",
+						"1.0",
+						"open",
+						"currentExchangeRate"
+					],
+					"query": [
+						{
+							"key": "apiKey",
+							"value": "{{API KEY}}"
+						},
+						{
+							"key": "from_symbol",
+							"value": "JPY"
+						},
+						{
+							"key": "to_symbol",
+							"value": "EUR"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Daily Exchange Rate",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api-brl-exchange.actionlabs.com.br/api/1.0/open/dailyExchangeRate?apiKey={{API KEY}}&from_symbol=JPY&to_symbol=EUR",
+					"protocol": "https",
+					"host": [
+						"api-brl-exchange",
+						"actionlabs",
+						"com",
+						"br"
+					],
+					"path": [
+						"api",
+						"1.0",
+						"open",
+						"dailyExchangeRate"
+					],
+					"query": [
+						{
+							"key": "apiKey",
+							"value": "{{API KEY}}"
+						},
+						{
+							"key": "from_symbol",
+							"value": "JPY"
+						},
+						{
+							"key": "to_symbol",
+							"value": "EUR"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "API KEY",
+			"value": "RVZG0GHEV2KORLNA",
+			"type": "default"
+		}
+	]
+}
